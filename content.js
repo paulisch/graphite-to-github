@@ -44,7 +44,6 @@
         link.innerHTML = `${GITHUB_ICON}<span>View this PR on GitHub</span>`;
 
         targetElement.insertBefore(link, targetElement.firstChild);
-        break; // Only insert once
       }
     }
   }
