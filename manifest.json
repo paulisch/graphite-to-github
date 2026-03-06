@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "Graphite to GitHub",
+    "version": "1.0",
+    "description": "Adds a button to navigate from a Graphite PR to GitHub PR",
+    "permissions": ["tabs"],
+    "host_permissions": ["https://app.graphite.dev/*", "https://app.graphite.com/*"],
+    "content_scripts": [
+      {
+        "matches": ["https://app.graphite.dev/*", "https://app.graphite.com/*"],
+        "js": ["content.js"],
+        "css": ["styles.css"],
+        "run_at": "document_end"
+      }
+    ]
+  }

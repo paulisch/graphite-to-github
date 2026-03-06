@@ -1,0 +1,29 @@
+.github-link {
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    font-family: Inter, sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    box-sizing: border-box;
+    padding: 6px;
+    border: 1px solid rgba(223, 223, 255, 0.13);
+    background-color: rgb(38, 38, 42);
+    color: #e8e8ed;
+    border-radius: 6px;    
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.1s, color 0.1s;
+}
+
+/* Hover effect for the GitHub link */
+.github-link:hover {
+    background-color: rgb(30, 30, 32);
+}
+  
+/* Styles for the GitHub icon */
+.github-icon {
+    margin-right: 4px;
+}
