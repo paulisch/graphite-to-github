@@ -5,7 +5,7 @@ A Chrome extension that adds a convenient button to navigate from a Graphite PR 
 ## Features
 
 - Adds a "View this PR on GitHub" button to Graphite PR pages
-- Works on both `app.graphite.dev` and `app.graphite.com`
+- Supports `app.graphite.dev` backwards-compatibility 
 - Seamlessly handles navigation in Graphite's single-page application
 
 ## Installation
@@ -19,11 +19,11 @@ A Chrome extension that adds a convenient button to navigate from a Graphite PR 
 2. Open Chrome and navigate to `chrome://extensions/`
 3. Enable "Developer mode" in the top right corner
 4. Click "Load unpacked" and select the folder containing this extension
-5. Navigate to any PR on [Graphite](https://app.graphite.dev) to see the button in action
+5. Navigate to any PR on [Graphite](https://app.graphite.com) to see the button in action
 
 ## Usage
 
-1. Open any pull request on Graphite (e.g., `https://app.graphite.dev/github/pr/owner/repo/123/...`)
+1. Open any pull request on Graphite (e.g., `https://app.graphite.com/github/pr/owner/repo/123/...`)
 2. Look for the "View this PR on GitHub" button in the sidebar
 3. Click to open the same PR on GitHub in a new tab
 
